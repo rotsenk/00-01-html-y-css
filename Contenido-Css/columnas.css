@@ -1,0 +1,18 @@
+nav{
+    background-color: #15F5BA;
+    padding: 20px;
+}
+
+.columna{
+    background-color: #f6416c;
+    color: #f8f3d4;
+    padding: 20px;
+    width: 25%;
+    margin: 10px;
+}
+
+.flexibilidad{
+    display: flex;
+}
+
+/*los elementos de bloque en html ocupan todo el espacio de nuestro sitio, sin embargo los elementos de linea solamente una línea, los del linea ocupan el ancho total del texto, en cambio, los demás de bloque ocupan la totalidad del sitio web, hay que hacerlos flexibles, agruparlos*/
