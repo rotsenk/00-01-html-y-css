@@ -1,0 +1,14 @@
+h1{
+    background-color: #B784B7;
+    margin-left: 100px;
+    /*si queremos aplicar margen a todos los lados, será margin*/
+    /*margin: 100px 10px 20px 500px*/
+    padding: 50px;
+}
+
+p{
+    background-color: #EEA5A6;
+    margin-right: 100px;
+}
+
+/*https://colorhunt.co/*/
