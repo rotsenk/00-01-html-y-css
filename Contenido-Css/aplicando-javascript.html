@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicando js</title>
+    <link rel="stylesheet" href="aplicando-js.css">
+</head>
+<body>
+    <nav>
+        <button class="nav-boton" onclick="accion()">Menú</button>
+        <a href="#" class="nav-enlace desaparece">Inicio</a>
+        <a href="#" class="nav-enlace desaparece">Nosotros</a>
+        <a href="#" class="nav-enlace desaparece">Servicios</a>
+        <a href="#" class="nav-enlace desaparece">Contacto</a>
+        <!-- <a href="#" class="nav-enlace">Contacto</a> -->
+    </nav>
+
+
+    <script>
+        function accion() {
+            console.log("funciona mi botón!");
+            var enlace = document.getElementsByClassName('nav-enlace');
+            for (let i = 0; i < enlace.length; i++) {
+                enlace[i].classList.toggle('desaparece');
+                
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.nav-enlace{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background-color: blue;
+}
+
+nav{
+    background-color: rebeccapurple;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-boton{
+    background-color: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;
+}
+
+/*cuando hacemos archivos en css extensos, los medias q se pocisiona al final de todo*/
+
+@media (max-width: 600px){
+    /* cuando máximo tengamos 600px en pantalla */
+    /* acá estamos haciendo otra hoja de estilo sólo que de los 600px en adelante */
+
+    /* column, posicionar los elementos uno encima de otros */
+    nav{
+        background-color: red;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+
+    .desaparece{
+        display: none;
+    }
+}
+
