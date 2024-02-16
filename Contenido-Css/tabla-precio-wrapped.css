@@ -1,0 +1,67 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.columna{
+    background-color: rgb(244, 245, 242);
+    color: #333;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px #888;
+    /* width: 100%; */
+    width: 20%;
+}
+
+.precio{
+    font-size: 50px;
+    color: #00dac7;
+}
+
+.btn-comprar{
+    background-color: salmon;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-comprar:hover{
+    background-color: rgb(249, 61, 40);
+}
+
+/* Antes de llegar a los 1070px se comporte de una forma, y al llegar a los 1070 para abajo, se comporte de otra forma */
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* https://fonts.google.com/ */
